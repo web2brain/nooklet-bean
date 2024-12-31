@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../coffee.css"/>
+	<script src="bean.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <script>  
+      var loc = window.location.pathname;
+      loc = loc.split('/').slice(0, -1).join('/');
+      var dir = loc.substring(loc.lastIndexOf('/') + 1);
+    </script>
+    
+    <h1 id="coffeeName"></h1>
+    
+    <table id="coffee">
+      <tr>
+        <td>Mahlgrad</td>
+ 	   <td id="grindSetting"></td>
+      </tr>
+      <tr>
+        <td>Br&uuml;hdauer (Zielzeit)</td>
+    	<td id="brewingTime"></td>
+      </tr>
+      <tr>
+        <td>Bohnenmenge</td>
+    	<td id="beansAmount"></td>
+      </tr>
+      <tr>
+        <td>Kaffeemenge (Ziel)</td>
+    	<td id="coffeeAmount"></td>
+      </tr>
+      <tr>
+        <td>Br&uuml;hrate</td>
+    	<td id="brewRatio"></td>
+      </tr>
+    </table>
+    <script>
+      document.getElementById('grindSetting').innerHTML = grindSetting;
+      document.getElementById('brewingTime').innerHTML = brewingTime;
+      document.getElementById('beansAmount').innerHTML = beansAmount;
+      document.getElementById('coffeeAmount').innerHTML = coffeeAmount;
+      document.getElementById('brewRatio').innerHTML = brewRatio;
+      
+      document.getElementById('coffeeName').innerHTML = dir;
+    </script>
+  </body>
+</html>
