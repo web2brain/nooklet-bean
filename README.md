@@ -11,7 +11,7 @@ Otherwise: this is a small nooklet displaying the brewing recipe for a coffee be
 * A passion for coffee might help for a sensible usage. :coffee:
 
 ## Usage
-1. Copy the files to your `Nooklets` folder on your nook.
+1. Copy the files from `nooklet` to the folder `Nooklets` on your nook.
 1. Change the name of the folder `Bean` to the name of your bean. The folder name will be the name of the nooklet and also the title for the brewing recipe.
 1. Adjust the file [bean.js](Beans/bean.js) in the folder of your bean, adjusting the values to your settings.
 1. Enjoy brewing delicious coffee! :coffee:
