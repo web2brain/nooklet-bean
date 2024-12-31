@@ -6,7 +6,7 @@ No? Then there's nothing to see here, please move along.
 Otherwise: this is a small nooklet displaying the brewing recipe for a coffee bean on the nook, that can be placed in the kitchen.
 
 ## Prerequisites
-* A [nook](https://en.wikipedia.org/wiki/Barnes_%26_Noble_Nook_1st_Edition).
+* A [nook](https://en.wikipedia.org/wiki/Barnes_%26_Noble_Nook_1st_Edition) 1st edition, sometimes also called nook classic.
 * Root the [nook](https://en.wikipedia.org/wiki/Barnes_%26_Noble_Nook_1st_Edition), details can be found at https://github.com/web2brain/nook-revival/.
 * Install the [Nooklet APK](https://github.com/web2brain/nook-revival/blob/master/apks/nooklet.apk).
 * Add this nooklet and add your own brewing information.
