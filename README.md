@@ -1,6 +1,8 @@
 # Bean Nooklet
 Did you ever have the problem that the brewing recipes for espresso are only available on your cellphone, where you have the possibility to use [Beanconqueror](https://github.com/graphefruit/Beanconqueror), but not displayed prominently in the kitchen? And where you also wondering what to do with your old [nook](https://en.wikipedia.org/wiki/Barnes_%26_Noble_Nook_1st_Edition), that you bought at Barnes & Noble ages ago?  
+
 No? Then there's nothing to see here, please move along.  
+
 Otherwise: this is a small nooklet displaying the brewing recipe for a coffee bean on the nook, that can be placed in the kitchen.
 
 ## Prerequisites
